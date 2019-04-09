@@ -53,12 +53,12 @@ namespace OnlineShop.Areas.Admin.Controllers
                 var result = dao.Update(model);
                 if (result)
                 {
-                    SetAlert("Sửa sản phẩm thành công", "success");
-                    return RedirectToAction("Index", "Product");
+                    SetAlert("Sửa tin tức thành công", "success");
+                    return RedirectToAction("Index", "Content");
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Cập nhật sản phẩm không thành công");
+                    ModelState.AddModelError("", "Cập nhật tin tức không thành công");
                 }
             }
             SetViewBag(model.CategoryID);
