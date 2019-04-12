@@ -45,7 +45,6 @@
                                 <th>Tiêu đề</th>
                                 <th>Hình ảnh</th>
                                 <th>Ngày đăng</th>
-                                <th>Trạng thái</th>
                                 <th>#</th>
                             </tr>
                         </thead>
@@ -57,7 +56,7 @@
                                     <td>@item.Name</td>
                                     <td>@item.Image</td>
                                     <td>@item.CreatedDate</td>
-                                    <td><a href="#" class="btn-active" data-id="@item.ID">@Html.Raw(item.Status ? "<strong>Kích hoạt</strong>" : "Khoá")</a></td>
+                                    
                                     <td>
                                         <a href="/Admin/Content/Edit/@item.ID">Sửa</a>
                                         |

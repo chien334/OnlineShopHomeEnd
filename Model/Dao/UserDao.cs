@@ -53,6 +53,7 @@ namespace Model.Dao
                 user.Email = entity.Email;
                 user.ModifiedBy = entity.ModifiedBy;
                 user.ModifiedDate = DateTime.Now;
+                user.GroupID = entity.GroupID;
                 db.SaveChanges();
                 return true;
             }

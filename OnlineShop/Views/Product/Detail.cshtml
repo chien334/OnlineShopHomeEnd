@@ -94,7 +94,7 @@
                         <a href="@url"><img src="@item.Image" alt=""></a>
                         <div class="price" style="border:none">
                             <div class="add-cart" style="float:none">
-                                <h4><a href="@url">Add to Cart</a></h4>
+                                <h4><a href="@url">Thêm vào giỏ hàng</a></h4>
                             </div>
                             <div class="clear"></div>
                         </div>
@@ -106,8 +106,12 @@
         <div class="rightsidebar span_3_of_1">
             @{ Html.RenderAction("ProductCategory", "Product");}
             <div class="subscribe">
-                <h2>Newsletters Signup</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.......</p>
+                <h2>
+                    Bản tin đăng ký
+                </h2>
+                <p>
+                    Lorem ipsum dolor ngồi amet, thủ phạm ưu tú, sed làm eiusmod.......
+                </p>
                 <div class="signup">
                     <form>
                         <input type="text" value="E-mail address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail address';"><input type="submit" value="Sign up">
@@ -115,34 +119,36 @@
                 </div>
             </div>
             <div class="community-poll">
-                <h2>Community POll</h2>
-                <p>What is the main reason for you to purchase products online?</p>
+                <h2>
+                    Cộng đồng POll
+                </h2>
+                <p>Lý do chính để bạn mua sản phẩm trực tuyến là gì?</p>
                 <div class="poll">
                     <form>
                         <ul>
                             <li>
                                 <input type="radio" name="vote" class="radio" value="1">
-                                <span class="label"><label>More convenient shipping and delivery </label></span>
+                                <span class="label"><label>Vận chuyển thuận tiện hơn và giao hàng </label></span>
                             </li>
                             <li>
                                 <input type="radio" name="vote" class="radio" value="2">
-                                <span class="label"><label for="vote_2">Lower price</label></span>
+                                <span class="label"><label for="vote_2">giá thấp hơn</label></span>
                             </li>
                             <li>
                                 <input type="radio" name="vote" class="radio" value="3">
-                                <span class="label"><label for="vote_3">Bigger choice</label></span>
+                                <span class="label"><label for="vote_3">Lựa chọn lớn hơn</label></span>
                             </li>
                             <li>
                                 <input type="radio" name="vote" class="radio" value="5">
-                                <span class="label"><label for="vote_5">Payments security </label></span>
+                                <span class="label"><label for="vote_5">Bảo đảm thanh toán</label></span>
                             </li>
                             <li>
                                 <input type="radio" name="vote" class="radio" value="6">
-                                <span class="label"><label for="vote_6">30-day Money Back Guarantee </label></span>
+                                <span class="label"><label for="vote_6">Đảm bảo hoàn tiền trong 30 ngày</label></span>
                             </li>
                             <li>
                                 <input type="radio" name="vote" class="radio" value="7">
-                                <span class="label"><label for="vote_7">Other.</label></span>
+                                <span class="label"><label for="vote_7">Khác.</label></span>
                             </li>
                         </ul>
                     </form>
