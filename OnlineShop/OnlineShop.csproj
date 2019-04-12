@@ -1205,8 +1205,12 @@
     <Content Include="assets\client\css\bootstrap-theme.min.css" />
     <Content Include="assets\client\css\bootstrap.css" />
     <Content Include="assets\client\css\bootstrap.min.css" />
+    <Content Include="assets\client\css\easy-responsive-tabs.css" />
     <Content Include="assets\client\css\font-awesome.min.css" />
+    <Content Include="assets\client\css\global.css" />
     <Content Include="assets\client\css\jquery-ui.css" />
+    <Content Include="assets\client\css\slider.css" />
+    <Content Include="assets\client\css\style.css" />
     <Content Include="assets\client\data\Provinces_Data.xml" />
     <Content Include="assets\client\font\fontawesome-webfont.svg" />
     <Content Include="assets\client\font\glyphicons-halflings-regular.svg" />

@@ -22,3 +22,9 @@ C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\Common\obj\Debug\Common.cspr
 C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\Common\obj\Debug\Common.dll
 C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\Common\obj\Debug\Common.pdb
+C:\Users\Admin\Desktop\OnlineShop\OnlineShopHomeEnd\Common\bin\Debug\Common.dll
+C:\Users\Admin\Desktop\OnlineShop\OnlineShopHomeEnd\Common\bin\Debug\Common.pdb
+C:\Users\Admin\Desktop\OnlineShop\OnlineShopHomeEnd\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\OnlineShop\OnlineShopHomeEnd\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\OnlineShop\OnlineShopHomeEnd\Common\obj\Debug\Common.dll
+C:\Users\Admin\Desktop\OnlineShop\OnlineShopHomeEnd\Common\obj\Debug\Common.pdb
