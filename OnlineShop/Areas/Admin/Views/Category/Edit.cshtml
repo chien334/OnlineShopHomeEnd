@@ -1,14 +1,14 @@
 ﻿@model Model.EF.Category
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "Edit";
     Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
 }
 @section header{
-    Tạo mới danh mục tin tức
+    Sửa danh mục tin tức
 }
 
-@using (Html.BeginForm("Create", "Category", FormMethod.Post))
+@using (Html.BeginForm("Edit", "Category", FormMethod.Post))
 {
     @Html.AntiForgeryToken()
 

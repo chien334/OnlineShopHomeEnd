@@ -25,7 +25,46 @@ namespace OnlineShop.Areas.Admin.Controllers
         {
             return View();
         }
+        public ActionResult Edit(long id)
+        {
+            var dao = new CategoryDao();
+            var category = dao.GetByID(id);
+            SetViewBag(category.ID);
 
+            return View(category);
+        }
+
+        private void SetViewBag(long? selectedId = null)
+        {
+            var dao = new CategoryDao();
+            ViewBag.CategoryID = new SelectList(dao.ListAll(), "ID", "Name", selectedId);
+        }
+        public ActionResult Delete(int id)
+        {
+            new CategoryDao().Delete(id);
+
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public ActionResult Edit(Category model)
+        {
+            if (ModelState.IsValid)
+            {
+                var dao = new CategoryDao();
+                var result = dao.Update(model);
+                if (result)
+                {
+                    SetAlert("Sửa danh  thành công", "success");
+                    return RedirectToAction("Index", "Category");
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Cập nhật danh sách không thành công");
+                }
+            }
+            SetViewBag(model.ID);
+            return View();
+        }
         [HttpPost]
         public ActionResult Create(Category model)
         {

@@ -31,3 +31,14 @@ C:\Users\Admin\Source\Repos\OnlineshopHome2\StaticResources\obj\Debug\StaticReso
 C:\Users\Admin\Source\Repos\OnlineshopHome2\StaticResources\obj\Debug\en\StaticResources.resources.dll
 C:\Users\Admin\Source\Repos\OnlineshopHome2\StaticResources\obj\Debug\StaticResources.dll
 C:\Users\Admin\Source\Repos\OnlineshopHome2\StaticResources\obj\Debug\StaticResources.pdb
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\bin\Debug\StaticResources.dll
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\bin\Debug\StaticResources.pdb
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\bin\Debug\en\StaticResources.resources.dll
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\obj\Debug\StaticResources.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\obj\Debug\StaticResources.Resources.resources
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\obj\Debug\StaticResources.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\obj\Debug\en\StaticResources.resources.dll
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\obj\Debug\StaticResources.dll
+C:\Users\Admin\Desktop\New folder\OnlineShopHomeEnd\StaticResources\obj\Debug\StaticResources.pdb
